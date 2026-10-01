@@ -1,6 +1,9 @@
 # Richardson Climatização — landing page
 
-Landing de uma página para a Richardson Climatização (Criciúma e região). O hero mostra a instalação de um split de parede em 3D, renderizada no Blender. Prévia comercial, sem publicação.
+Landing de uma página para a Richardson Climatização (Criciúma e região). O hero mostra a instalação de um split de parede em 3D, renderizada no Blender. Prévia comercial.
+
+Prévia online para o cliente (01/10/2026): https://luqbruno.github.io/richardson-climatizacao-landing/
+Repositório público: https://github.com/LuqBruno/richardson-climatizacao-landing (branch `main`). O GitHub Pages é publicado por `.github/workflows/deploy-pages.yml`, que roda check e build e publica `dist`. A página tem `noindex` enquanto for prévia. O repositório não inclui os 150 quadros brutos do render nem as capturas de revisão.
 
 ## Executar
 

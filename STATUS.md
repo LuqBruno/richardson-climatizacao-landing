@@ -1,6 +1,13 @@
 # STATUS — Richardson Climatização
 
-**Situação:** prévia comercial local pronta para revisão (versão 0.2.0, 01/10/2026). Sem contratação, publicação ou envio ao cliente registrados. A negociação, se houver, fica no `PIPELINE.md`.
+**Situação:** prévia comercial 0.2.0 online para visualização do cliente (01/10/2026). Sem contratação nem publicação definitiva registradas. A negociação, se houver, fica no `PIPELINE.md`.
+
+**Publicação da prévia** (pedido do usuário, 01/10/2026):
+- Repositório público: https://github.com/LuqBruno/richardson-climatizacao-landing
+- Pages: https://luqbruno.github.io/richardson-climatizacao-landing/
+- O workflow de deploy (check + build + Pages) terminou com sucesso.
+- Conferido no ar: HTTP 200 da página, dos vídeos, pôsteres, logo, favicon e imagem social; cena reproduzindo em 1440 e 390 px; sem rolagem horizontal nem erros; `noindex` ativo.
+- Nenhuma mensagem foi enviada ao cliente.
 
 ## Decisões vigentes (01/10/2026, pedido desta conversa)
 
@@ -51,7 +58,7 @@ Vídeos: 800 px WebM 150 kB / MP4 189 kB; 1280 px WebM 312 kB / MP4 592 kB. Pôs
 1. Confirmar com o cliente: horário, canal oficial (WhatsApp 3411-6107 × telefone do Google 99927-4407) e se a página pode mencionar os "15 anos de experiência".
 2. Logo vetorial ou PNG em alta resolução, se existir. A atual vem de um JPG de 150 px e fica um pouco suave em telas densas.
 3. Fotos originais sem texto sobreposto para "Na prática" (as capas de reels trazem texto e, numa delas, logos de fabricantes).
-4. Domínio final: `og:image` absoluto, `og:url` e `canonical`. Avaliar pré-renderização do HTML ao publicar (hoje o conteúdo indexável sem JS está no `<noscript>` e no JSON-LD).
+4. Domínio final: hoje `og:image` e `og:url` apontam para o GitHub Pages; no domínio definitivo, trocar essas URLs, acrescentar `canonical` e remover o `noindex`. Avaliar pré-renderização do HTML ao publicar (hoje o conteúdo indexável sem JS está no `<noscript>` e no JSON-LD).
 5. Testar em celular real (iOS Safari e Android) a reprodução automática do vídeo e a fluidez.
 
 ## Próxima ação
