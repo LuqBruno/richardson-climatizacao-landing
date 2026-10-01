@@ -1,0 +1,10 @@
+node_modules/
+dist/
+artifacts/
+*.local
+output/
+.playwright-cli/
+blender/renders/frames/
+.claude/
+references/
+*.blend1
